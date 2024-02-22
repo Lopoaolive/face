@@ -1,4 +1,6 @@
-pip install opencv-python
+import subprocess
+
+subprocess.check_call(["python", '-m', 'pip', 'install', 'opencv-python'])
 import cv2
 import streamlit as st
 
